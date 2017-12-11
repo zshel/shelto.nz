@@ -20,6 +20,23 @@ function updateNav() {
     })
 }
 
+function checkMobile() {
+    setMobile()
+    window.addEventListener('resize', function (ev) {
+        setMobile()
+    })
+}
+
+function setMobile() {
+    var div = document.getElementById("mobile-check");
+    var main = document.getElementsByClassName("content")[0];
+    if(div.style.display == 'none') {
+        main.className = "content small-screen";
+    } else {
+        main.className = "content";
+    }
+}
+
 
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
@@ -41,3 +58,4 @@ function createElement(text) {
 
 
 updateNav();
+checkMobile();
