@@ -121,6 +121,47 @@ body {
     z-index: -1;
 }
 
+.hdiv {
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+.hdiv h3{
+    text-align: center;
+    color: #828282;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.hdiv-big {
+    width: 60%;
+}
+.hdiv-left {
+    margin: 0px;
+}
+
+.hdiv-left h3 {
+    text-align: left;
+}
+
+.hdiv-right {
+    margin: 0px;
+    float: right;
+}
+
+.hdiv-small {
+    width: 30%;
+}
+.separator {
+    height: 2px;
+    background-color: #d7d7d7;
+    width: 100%;
+}
+
 @media only screen and (max-width: 760px) {
     #mobile-check { display: none; }
 }
