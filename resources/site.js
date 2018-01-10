@@ -2,7 +2,7 @@ function updateNav() {
     window.addEventListener('scroll',function () {
         var anchors = document.getElementsByClassName("anchor");
         var contentSections = document.getElementsByClassName("content-section");
-        var scroll = Math.floor(document.documentElement.scrollTop);
+        var scroll = Math.floor(document.body.scrollTop);
         for(var i = 0; i < anchors.length; i++) {
             var anchor = anchors[i];
             var content = contentSections[i];
@@ -58,4 +58,4 @@ function createElement(text) {
 
 
 updateNav();
-checkMobile();
+// checkMobile();
