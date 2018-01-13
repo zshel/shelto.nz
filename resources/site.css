@@ -240,16 +240,74 @@ body {
     width: 200px;
     height: 120px;
 }
+.image-wrapper.small {
+    width: 50px;
+    height: 50px;
+}
 
 .image-wrapper img {
     object-fit: cover;
-    width: 160%;
-    height: 160%;
+    width: 100%;
+    height: 100%;
 }
 
 .padded-content {
     padding: 20px 10% 20px 10%;
 }
+
+.footer {
+    background-color: #5d5d5d;
+    width: calc(100% - 100px);
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 0px;
+    padding-left: 100px;
+}
+
+.footer.footer-large {
+    height: 200px;
+}
+
+.footer.footer-small {
+    height: 100px;
+}
+
+.footer-break {
+
+}
+
+.contact-list {
+    margin: auto;
+    padding: 0;
+    width: max-content;
+    list-style-type: none;
+}
+.contact-list li {
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.contact-item {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 50px;
+    height: 50px;
+    -webkit-transition: 0.3s;
+}
+
+.contact-item:hover {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 14px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-item-detials {
+    padding-top: 8px;
+    text-align: center;
+    color: #828282;
+    width: inherit;
+}
+
 
 @media only screen and (max-width: 760px) {
     #mobile-check {
