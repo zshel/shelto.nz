@@ -8,7 +8,9 @@
 <div id="nav" class="nav-bar-outer">
     <div class="nav-bar">
         <ul class="nav-tab-list">
+
             <li id="home-tab" class="nav-tab nav-tab-active"><a class="nav-tab-inner" href="#home">Home</a></li>
+            <li id="edu-tab" class="nav-tab"><a class="nav-tab-inner" href="#edu">Education</a></li>
             <li id="projects-tab" class="nav-tab"><a class="nav-tab-inner" href="#projects">Projects</a></li>
             <li id="contact-tab" class="nav-tab"><a class="nav-tab-inner" href="#contact">Contact</a></li>
             <!--<li id="papers-tab" class="nav-tab"><a class="nav-tab-inner" href="#papers">Papers</a></li>-->
@@ -26,9 +28,56 @@
                     <img src="resources/img/accent-img.jpg"/>
                     <div class="content-title" id="title">
                         <h1>Zachary Shelton</h1>
-                        <p>Application Developer</p>
+                        <p>Software Designer</p>
                         <!--<div class=""-->
                     </div>
+                </div>
+            </div>
+            <div id="edu" class="anchor"></div>
+            <div class="content-section" id="edu-content">
+                <div class="hdiv hdiv-big">
+                    <h3>Education</h3>
+                    <div class="separator"></div>
+                </div>
+                <div class="padded-content">
+                <div class="cell">
+                    <div class="image-wrapper" style="float: left">
+                        <img src="resources/img/oca_logo.png">
+                    </div>
+                    <h4 class="cell-title right">Oracle Certified Associate, Java SE 8 Programmer</h4><h4 class="cell-sub-title">(March 2018)</h4>
+                    <div class="cell-desc right">
+                        <p>This certificate shows mastery in the different parts of Java 8 and how they all relate in order to create full-fledged, polymorphic program.
+                            <br><a href="https://www.youracclaim.com/badges/05eb1896-1b58-4cf1-94e5-6d667237092f">Verified Badge Link</a></p>
+                    </div>
+                </div>
+            </div>
+                <div class="padded-content">
+                    <div class="cell">
+                        <div class="image-wrapper" style="float: left">
+                            <img src="resources/img/wit_logo.png">
+                        </div>
+                        <h4 class="cell-title right">Wentworth Institute of Technology</h4><h4 class="cell-sub-title">(BCOS Candidate 2020)</h4>
+                        <div class="cell-desc right">
+                            <p>Currently enrolled as a Sophomore at Wentworth Institute of Technology slated to graduate in 2020 with a Bachelors of Computer Science. Balancing a full course load, research position within the Computer Science and Networking department and competing in NCAA Division III Track and Field.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="padded-content">-->
+                    <!--<div class="cell">-->
+                        <!--<div><h4 class="cell-title right">Oracle Certified Associate, Java SE 8 Programmer</h4><h4 class="cell-sub-title">(March 2018)</h4></div>-->
+                        <!--<div class="image-wrapper">-->
+                            <!--<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="05eb1896-1b58-4cf1-94e5-6d667237092f"></div>-->
+                            <!--<script type="text/javascript">-->
+                                <!--(function() {-->
+                                    <!--var s = document.createElement('script');-->
+                                    <!--s.type = 'text/javascript';-->
+                                    <!--s.async = true;-->
+                                    <!--s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';-->
+                                    <!--var o = document.getElementsByTagName('script')[0];-->
+                                    <!--o.parentNode.insertBefore(s, o);-->
+                                <!--})();-->
+                            <!--</script></div>-->
+                    <!--</div>-->
                 </div>
             </div>
             <div id="projects" class="anchor"></div>
@@ -43,10 +92,12 @@
                                 href="https://github.com/4orecast">GitHub</a>)</h4></div>
                         <div class="image-wrapper" style="float: right">
                             <img src="resources/img/forecast.png"></div>
-                        <p>Forecast is an open sourced data forecasting program written in Java. It incorporates a
-                            robust plugin system that allows for custom file import schemas and user defined prediction
-                            algorithms. It all gets tied together with a JavaFX based UI that is easy to use and
-                            pleasant to look at.</p>
+                        <div class="cell-desc left">
+                            <p>Forecast is an open sourced data forecasting program written in Java. It incorporates a
+                                robust plugin system that allows for custom file import schemas and user defined prediction
+                                algorithms. It all gets tied together with a JavaFX based UI that is easy to use and
+                                pleasant to look at.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="padded-content">
@@ -57,9 +108,11 @@
                         </h4></div>
                         <div class="image-wrapper" style="float: right">
                             <img src="resources/img/historytrek.jpg"></div>
-                        <p>Boston HistoryTrek is for history lovers, tourists, and anyone who wants to explore
-                            Historical Boston. Launch the app to uncover historical places, add locations to build your
-                            own itinerary, and launch navigation to start exploring!</p>
+                        <div class="cell-desc left">
+                            <p>Boston HistoryTrek is for history lovers, tourists, and anyone who wants to explore
+                                Historical Boston. Launch the app to uncover historical places, add locations to build your
+                                own itinerary, and launch navigation to start exploring!</p>
+                        </div>
                     </div>
                 </div>
                 <div class="padded-content">
@@ -70,11 +123,12 @@
                         </h4></div>
                         <div class="image-wrapper" style="float: right">
                             <img src="resources/img/rice.png"></div>
-                        <p>Real-time Interactive Collaborative Editor (RICE) is a simple, easy to use text editor that you can use to collaboration with groups of people all shapes and sizes.</p>
+                        <div class="cell-desc left">
+                            <p>Real-time Interactive Collaborative Editor (RICE) is a simple, easy to use text editor that you can use to collaboration with groups of people all shapes and sizes.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         <div id="contact" class="anchor"></div>
         <div class="content-section" id="contact-content">
             <div class="hdiv hdiv-big">
@@ -95,6 +149,7 @@
                     </li>
                 </ul>
             </div>
+        </div>
         </div>
     </div>
 </div>
